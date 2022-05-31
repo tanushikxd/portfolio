@@ -126,7 +126,7 @@ a {
 }
 
 .hero {
-  background-image: url(/assets/images/bg.jpg);
+  background-image: url(assets/images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -324,13 +324,14 @@ a {
   -ms-grid-row: 3;
   -ms-grid-column: 5;
 }
+
 .portfolio-images_link-pic:hover, .portfolio-images_link-pic:focus {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
 
 .video-play {
-  background-image: url(/assets/images/couple-video.jpg);
+  background-image: url(assets/images/couple-video.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -435,7 +436,7 @@ input:hover, textarea:hover {
 
 .contact {
   margin-right: 20px;
-  background-image: url(/assets/images/contacts.jpg);
+  background-image: url(assets/images/contacts.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
