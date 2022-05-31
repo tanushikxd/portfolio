@@ -1,0 +1,32 @@
+@mixin body ($fontF, $backC, $color, $fontS, $maxW) {
+    font-family: $fontF;
+    background-color: $backC;
+    color: $color;
+    font-size: $fontS;
+    max-width: $maxW;
+    
+}
+$colorSome: #BDAE82;
+@mixin h3 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    
+}
+@mixin contact() {
+    background-color: transparent;
+    border: 2px solid $colorSome;
+    width: 450px;
+}
+@mixin sm-block() {
+    @media  screen and(max-width: 768px) {
+        @content;
+    }
+}
+    @mixin md-block() {
+        @media  screen and(max-width: 991px) {
+            @content;
+        }
+    }

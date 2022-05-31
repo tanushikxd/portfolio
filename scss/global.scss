@@ -1,0 +1,18 @@
+@mixin headers($header) {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Merriweather';
+}
+}
+@mixin bodyM() {
+    font-family: 'inter' sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+    max-width: 1440px;
+}
